@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../dist/output.css">
+</head>
+<body>
+    <div class="flex h-full bg-image" style="background-image: url(../images/background.svg);">
+        <!-- Sesi Pertanyaan -->
+        <div class="flex flex-col h-full w-10/12 justify-center items-center pt-[100px]">
+            <!-- Pertanyaan -->
+            <div class="flex justify-center items-center w-[900px] h-[150px] border-4 rounded-lg border-white bg-purple-500">
+                <h1 id="questionText" class="font-bold text-white text-2xl px-5"></h1>
+            </div>
+            <!-- End Pertanyaan -->
+
+            <!-- Jawaban -->
+            <div class="flex h-full gap-10">
+                <!-- Jawaban Kiri -->
+                <div class="flex flex-col justify-center items-center h-[595px] w-1/2 gap-10">
+                    <div id="jawabanA" class="jawaban flex justify-center items-center border-4 border-white bg-purple-500 hover:bg-purple-900 rounded-lg w-[450px] h-[100px]">
+                        <button id="answerA" class="text-white font-semibold font-serif"></button>
+                    </div>
+                    <div id="jawabanB" class="jawaban flex justify-center items-center w-[450px] h-[100px] border-4 border-white bg-purple-500 hover:bg-purple-900 rounded-lg">
+                        <button id="answerB" class="text-white font-semibold font-serif"></button>
+                    </div>
+                </div>
+                <!-- End Jawaban Kiri -->
+
+                <!-- Jawaban Kanan -->
+                <div class="flex flex-col justify-center items-center h-[595px] w-1/2 gap-10">
+                    <div id="jawabanC" class="jawaban flex justify-center items-center w-[450px] h-[100px] border-4 border-white bg-purple-500 hover:bg-purple-900 rounded-lg">
+                        <button id="answerC" class="text-white font-semibold font-serif"></button>
+                    </div>
+                    <div id="jawabanD" class="jawaban flex justify-center items-center w-[450px] h-[100px] border-4 border-white bg-purple-500 hover:bg-purple-900 rounded-lg">
+                        <button id="answerD" class="text-white font-semibold font-serif"></button>
+                    </div>
+                </div>
+                <!-- End Jawaban Kanan -->
+            </div>
+            <!-- End Jawaban -->
+
+        </div>
+        <!-- End Sesi Pertanyaan -->
+
+        <!-- Sesi Skor -->
+        <div class="flex flex-col justify-center items-center h-screen w-1/3 gap-3" id="sesiSkor">
+            <div id="case15" class="flex border-4 border-white rounded-lg w-[300px] h-auto font-semibold px-3 text-white bg-purple-500">
+                10.000.000.000 RP
+            </div>
+
+            <div id="case14" class="flex border-4 border-white rounded-lg w-[300px] h-auto font-semibold px-3 text-white bg-purple-500">
+                6.000.000.000 RP
+            </div>
+
+            <div id="case13" class="flex border-4 border-white rounded-lg w-[300px] h-auto font-semibold px-3 text-white bg-purple-500">
+                5.000.000.000 RP
+            </div>
+
+            <div id="case12" class="flex border-4 border-white rounded-lg w-[300px] h-auto font-semibold px-3 text-white bg-purple-500">
+                4.000.000.000 RP
+            </div>
+
+            <div id="case11" class="flex border-4 border-white rounded-lg w-[300px] h-auto font-semibold px-3 text-white bg-purple-500">
+                3.000.000.000 RP
+            </div>
+
+            <div id="case10" class="flex border-4 border-white rounded-lg w-[300px] h-auto font-semibold px-3 text-white bg-purple-500">
+                2.000.000.000 RP
+            </div>
+
+            <div id="case9" class="flex border-4 border-white rounded-lg w-[300px] h-auto font-semibold px-3 text-white bg-purple-500">
+                1.000.000.000 RP
+            </div>
+
+            <div id="case8" class="flex border-4 border-white rounded-lg w-[300px] h-auto font-semibold px-3 text-white bg-purple-500">
+                500.000.000 RP
+            </div>
+
+            <div id="case7" class="flex border-4 border-white rounded-lg w-[300px] h-auto font-semibold px-3 text-white bg-purple-500">
+                300.000.000 RP
+            </div>
+
+            <div id="case6" class="flex border-4 border-white rounded-lg w-[300px] h-auto font-semibold px-3 text-white bg-purple-500">
+                100.000.000 RP
+            </div>
+
+            <div id="case5" class="flex border-4 border-white rounded-lg w-[300px] h-auto font-semibold px-3 text-white bg-purple-500">
+                50.000.000 RP
+            </div>
+
+            <div id="case4" class="flex border-4 border-white rounded-lg w-[300px] h-auto font-semibold px-3 text-white bg-purple-500">
+                10.000.000 RP
+            </div>
+
+            <div id="case3" class="flex border-4 border-white rounded-lg w-[300px] h-auto font-semibold px-3 text-white bg-purple-500">
+                5.000.000 RP
+            </div>
+
+            <div id="case2" class="flex border-4 border-white rounded-lg w-[300px] h-auto font-semibold px-3 text-white bg-purple-500">
+                1.000.000 RP
+            </div>
+
+            <div id="case1" class="flex border-4 border-white rounded-lg w-[300px] h-auto font-semibold px-3 text-white bg-purple-500">
+                100.000 RP
+            </div>
+        </div>
+        <!-- End Sesi Skor -->
+    </div>
+</body>
+<script src="../js/index.js"></script>
+</html>
